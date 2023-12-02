@@ -27,7 +27,8 @@
 
     <form action="contacto.html">
     <article>
-        <p>Tus datos</p>
+        <fieldset>
+            <legend>Tus datos</legend>
         <div>
             <label for="nombre">Nombre</label>
             <input id="nombre" type="text">
@@ -52,26 +53,28 @@
             <label for="">Mensaje</label>
             <textarea name="" id="" cols="30" rows="10"></textarea>
         </div>
-
+    </fieldset>
     </form>
     </article>
 
     <article>
-        <p>País</p>
-        <label for="paises">País</label>
-        <select name="" id="paises">
-            <option value="0">Mexico</option>
-            <option value="1">Perú</option>
-            <option value="2">Colombia</option>
-            <option value="3">Argentina</option>
-            <option value="4">España</option>
-            <option value="5">Chile</option>
-        </select>       
-
+        <fieldset>
+                <legend>País</legend>
+            <label for="paises">País</label>
+            <select name="" id="paises">
+                <option value="0">Mexico</option>
+                <option value="1">Perú</option>
+                <option value="2">Colombia</option>
+                <option value="3">Argentina</option>
+                <option value="4">España</option>
+                <option value="5">Chile</option>
+            </select>       
+        </fieldset>
     </article>
 
     <article>
-        <p>Información Extra</p>
+        <fieldset>
+        <legend>Información Extra</legend>
         
         <div>
             <label for="">Cliente</label>
@@ -87,9 +90,9 @@
             <label for="">Categoría de Interés</label>
             <textarea name="" id="" cols="30" rows="5"></textarea>
         </div>
-        <button type="submit">ENVIAR FORMULARIO </button>
+        </fieldset>
     </article>
-
+    <button type="submit">ENVIAR FORMULARIO </button>
 </main>
 
     <footer>
